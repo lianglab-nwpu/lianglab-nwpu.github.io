@@ -43,7 +43,7 @@ h2{font-size:1.9rem;margin:0 0 .8rem}
 .btn.ghost{background:rgba(255,255,255,.12);color:#fff;border:1.5px solid rgba(255,255,255,.75);box-shadow:none}
 /* welcome */
 .welcome{display:grid;grid-template-columns:180px 1fr;gap:40px;padding:40px 44px;margin-top:-40px;position:relative;background:linear-gradient(135deg,#ffffff,#eef5fb)}
-.welcome-photo{width:180px;height:180px;object-fit:cover;object-position:top;border-radius:50%;border:6px solid #fff;box-shadow:var(--shadow-h)}
+.welcome-photo{width:180px;height:auto;aspect-ratio:206/270;object-fit:cover;object-position:center;border-radius:22px;border:6px solid #fff;box-shadow:var(--shadow-h)}
 .welcome-text p{margin:.6em 0}.welcome-text p:first-child{font-family:var(--serif);font-size:1.45rem;font-weight:600;color:var(--brand-d);margin-top:0}
 .sign{font-family:var(--serif);font-style:italic;font-weight:500;color:var(--muted);margin-bottom:0}
 /* home */
@@ -76,7 +76,7 @@ figcaption{color:var(--muted);font-size:.86rem;margin-top:8px}figure{margin:0}
 .ticks{padding-left:1.1em}.ticks li::marker{color:var(--brand)}.reps{padding-left:1.1em;font-size:.92rem}
 /* people */
 .pi{display:grid;grid-template-columns:220px 1fr;gap:44px;align-items:start;padding:36px}
-.pi img{border-radius:50%;width:220px;height:220px;object-fit:cover;object-position:top;border:6px solid #fff;box-shadow:var(--shadow-h)}
+.pi img{border-radius:22px;width:220px;height:auto;aspect-ratio:206/270;object-fit:cover;object-position:center;border:6px solid #fff;box-shadow:var(--shadow-h)}
 .pi h2{margin:0}.role{color:var(--muted);margin-top:4px}
 .cv{margin-top:28px;padding:30px;background:var(--soft);border-radius:var(--r)}.three{grid-template-columns:repeat(3,1fr)}
 .cv h3{margin-top:0;font-size:1.15rem}
@@ -110,8 +110,8 @@ figcaption{color:var(--muted);font-size:.86rem;margin-top:8px}figure{margin:0}
  .nav-toggle{display:block}.menu{display:none;position:absolute;top:72px;left:0;right:0;background:var(--bg);flex-direction:column;padding:10px 16px 18px;border-bottom:1px solid var(--line)}
  .menu.open{display:flex}
  .intro,.two-col,.research,.pi,.contact-grid,.welcome,.values{grid-template-columns:1fr;gap:24px}.research.flip>img{order:0}
- .welcome{padding:28px 22px;margin-top:-28px;text-align:left}.welcome-photo{width:120px;height:120px}
- .pi{padding:24px}.pi img{width:160px;height:160px}.hero-inner{padding:72px 20px 84px}.section{padding:44px 18px}
+ .welcome{padding:28px 22px;margin-top:-28px;text-align:left}.welcome-photo{width:140px}
+ .pi{padding:24px}.pi img{width:180px}.hero-inner{padding:72px 20px 84px}.section{padding:44px 18px}
  .tiles,.life{grid-template-columns:1fr}.foot{flex-direction:column}.foot-right{text-align:left}
 }
 /* pillars */
