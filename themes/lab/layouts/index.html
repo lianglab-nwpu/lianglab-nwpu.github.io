@@ -41,7 +41,7 @@
 
 <section class="wrap block narrow">
  <h2 class="center">Lab News</h2>
- <ul class="newslist home-news">{{ range first 5 site.Data.news }}{{ partial "newsitem.html" (dict "n" .) }}{{ end }}</ul>
+ <ul class="newslist home-news">{{ range first 5 site.Data.news }}{{ partial "newsitem.html" (dict "n" . "home" true) }}{{ end }}</ul>
  <p class="center"><a class="more" href="{{ "news/" | relURL }}">All news ›</a></p>
 </section>
 {{ end }}

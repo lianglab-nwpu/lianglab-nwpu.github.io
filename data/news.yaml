@@ -2,8 +2,9 @@
   month: "Aug 2026"
   title: "Prof. Fei Liang was invited to give a talk at the 3rd International Conference on AI Sensors and Transducers (AIS 2026), Jeju, Korea (August 2–7, 2026)"
   link: "https://sciforum.net/event/AIS2026"
-  image: "img/news/ais2026.webp"
-  alt: "AIS 2026 certificate"
+  images:
+    - {src: "img/news/ais2026_talk.webp", alt: "Prof. Fei Liang giving a talk at AIS 2026, Jeju"}
+    - {src: "img/news/ais2026.webp", alt: "AIS 2026 certificate"}
   cat: "Invited Talk"
 - date: "2026"
   month: "Jun 2026"
