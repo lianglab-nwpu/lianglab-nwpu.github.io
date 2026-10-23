@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',function(){var b=document.querySelector('.nav-toggle'),m=document.querySelector('.menu');if(b){b.addEventListener('click',function(){var o=m.classList.toggle('open');b.setAttribute('aria-expanded',o)})}});
