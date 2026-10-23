@@ -180,3 +180,12 @@ figure{margin:0}figcaption{color:var(--muted);font-size:.88rem;margin-top:8px}
 .idbar a:hover,.foot-main a:hover,.foot-bar a:hover,.foot-main .btn.line:hover{color:#fff}
 .foot-main .btn:hover{color:var(--brand-d)}
 .hcard h3 a:hover,.pub-title a:hover{color:var(--brand)}
+/* news items with an optional image */
+.newslist li.has-img{display:grid;grid-template-columns:260px 1fr;gap:24px;align-items:start}
+.news-img{display:block;border-radius:12px;overflow:hidden;border:1px solid var(--line);border-top:4px solid var(--accent);box-shadow:var(--shadow);background:#fff;transition:box-shadow .2s,transform .2s}
+.news-img:hover{box-shadow:var(--shadow-h);transform:translateY(-2px)}
+.news-img img{display:block;width:100%;height:auto;aspect-ratio:1400/990;object-fit:cover}
+.news-note{margin:.2rem 0 .4rem;font-size:.98rem;color:var(--muted);max-width:760px}
+.home-news li.has-img{grid-template-columns:150px 1fr;gap:18px}
+.home-news .news-img{border-radius:8px;border-top-width:3px}
+@media (max-width:640px){.newslist li.has-img{grid-template-columns:1fr;gap:12px}.newslist li.has-img .news-img{max-width:420px}.home-news li.has-img{grid-template-columns:96px 1fr;gap:12px}}

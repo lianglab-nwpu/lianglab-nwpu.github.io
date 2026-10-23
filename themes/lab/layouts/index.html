@@ -41,7 +41,7 @@
 
 <section class="wrap block narrow">
  <h2 class="center">Lab News</h2>
- <ul class="newslist">{{ range first 5 site.Data.news }}<li><span class="date">{{ .date }}</span><h3>{{ if .doi }}<a href="https://doi.org/{{ .doi }}" rel="noopener">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</h3><span class="cat">{{ if .doi }}Publication{{ else }}Lab News{{ end }}</span></li>{{ end }}</ul>
+ <ul class="newslist home-news">{{ range first 5 site.Data.news }}{{ partial "newsitem.html" (dict "n" .) }}{{ end }}</ul>
  <p class="center"><a class="more" href="{{ "news/" | relURL }}">All news ›</a></p>
 </section>
 {{ end }}
