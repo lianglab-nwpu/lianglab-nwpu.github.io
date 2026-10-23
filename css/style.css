@@ -9,7 +9,7 @@
 @font-face{font-family:"Source Sans 3";src:url(../fonts/source-sans-3-700.woff2) format("woff2");font-weight:700;font-display:swap}
 @font-face{font-family:"Source Sans 3";src:url(../fonts/source-sans-3-900.woff2) format("woff2");font-weight:800 900;font-display:swap}
 :root{
- /* light warm palette sampled from the SPIE Lab logo: cream #FFF7EC, peach #F6C9A8, sand #EFC79A, coral #E8896B, brown #4D3624 */
+ /* light warm palette sampled from the lab logo: cream #FFF7EC, peach #F6C9A8, sand #EFC79A, coral #E8896B, brown #4D3624 */
  --ink:#4d3624;--muted:#6e5a4b;--line:#f0dcc6;--paper:#fff7ec;--card:#fffbf5;--soft:#feefd9;--mist:#fbe3cc;
  --navy:#4e3522;--deep:#3f2b1d;--brand:#a24a2b;--brand-d:#86391f;--teal:#a24a2b;--accent:#e8896b;--sky:#f6c9a8;--sand:#fbe7d3;--peach:#f6c9a8;--wheat:#efc79a;
  --shadow:0 2px 12px rgba(78,53,34,.08);--shadow-h:0 10px 26px rgba(78,53,34,.15);
