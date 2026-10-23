@@ -18,6 +18,17 @@
   title: "Bioinspired twist-hyperbolic metamaterial for impact buffering and self-powered sensing in UAVs published in Science Advances"
   doi: "10.1126/sciadv.adw6179"
 - date: "2025"
+  month: "Apr 2025"
+  title: "NWPU News features our series of advances in flexible self-powered bioelectronics published in Matter and Advanced Materials"
+  link: "https://news.nwpu.edu.cn/info/1002/133319.htm"
+  details: "Highlights include a triboelectric patch that induces cuproptosis to prevent melanoma recurrence (Matter), a moisture-electric generator dressing that sped wound healing by about 41% (Advanced Materials), a kirigami stretchable paper-based hydrovoltaic generator for sweat monitoring (Advanced Functional Materials), and a review on semi-implantable bioelectronics (Advanced Functional Materials)."
+  images:
+    - {src: "img/news/nwpu2025_review.webp", alt: "Semi-implantable bioelectronics review figure"}
+    - {src: "img/news/nwpu2025_matter.webp", alt: "Matter article: triboelectric-field-mediated cuproptosis induction patch"}
+    - {src: "img/news/nwpu2025_amfed.webp", alt: "AMFED moisture-electric generator dressing"}
+    - {src: "img/news/nwpu2025_spheg.webp", alt: "Kirigami stretchable paper-based hydrovoltaic generator"}
+  cat: "NWPU News"
+- date: "2025"
   title: "Moisture-driven electrogenerative dressing for enhanced wound healing published in Advanced Materials"
   doi: "10.1002/adma.202418074"
 - date: "2025"
