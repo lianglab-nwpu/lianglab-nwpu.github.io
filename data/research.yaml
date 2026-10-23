@@ -2,7 +2,7 @@
   num: "01"
   title: "Self-Powered"
   subtitle: "Energy-harvesting materials & device design"
-  image: "img/research/pillar_selfpowered.webp"
+  image: "img/research/pillar_selfpowered_cool.webp"
   summary: "We design materials and devices that generate their own electricity from motion, water and moisture — so that flexible electronics can run without batteries."
   points:
     - "Triboelectric nanogenerators (TENGs) and the physics of contact electrification"
@@ -14,7 +14,7 @@
   num: "02"
   title: "Intelligent"
   subtitle: "AI-based sensing materials & AI-empowered sensing systems"
-  image: "img/research/pillar_intelligent.webp"
+  image: "img/research/pillar_intelligent_cool.webp"
   summary: "We bring artificial intelligence into both ends of the sensing chain: using data-driven methods to discover and design better sensing materials, and building smart, self-powered systems that understand the signals they collect."
   points:
     - "AI-guided discovery and design of sensing and energy materials"
@@ -25,7 +25,7 @@
   num: "03"
   title: "Flexible for Extreme Environments"
   subtitle: "Flexible electronics for aeronautics, astronautics & marine engineering"
-  image: "img/research/pillar_extreme.webp"
+  image: "img/research/pillar_extreme_cool.webp"
   summary: "We take flexible, self-powered electronics out of the lab and into the air, space and sea — conformal sensors that keep working on aircraft surfaces, in orbit and underwater."
   points:
     - "Self-powered aerodynamic-state sensing skins for aircraft wing surfaces"

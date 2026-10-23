@@ -4,7 +4,7 @@ subtitle: "One theme, three pillars: Self-Powered Intelligent Flexible Electroni
 pagetype: research
 ---
 <div class="theme" id="theme">
-<img src="/img/research/hero_framework.webp" alt="Self-Powered Intelligent Flexible Electronics — research framework">
+<img src="/img/research/hero_framework_cool.webp" alt="Self-Powered Intelligent Flexible Electronics — research framework">
 <div>
 
 ### Self-Powered Intelligent Flexible Electronics
