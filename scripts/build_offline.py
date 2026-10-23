@@ -32,7 +32,7 @@ for f in os.listdir(OUT):
     for url in re.findall(r'(?:href|src)=["\']?([^"\'\s>]+)', s) + re.findall(r"url\('?([^')]+)'?\)", s):
         url = html.unescape(url)
         if re.match(r'^(https?:|mailto:|#|data:)', url): continue
-        path = url.split('#')[0]
+        path = url.split('#')[0].split('?')[0]
         if not path: continue
         if not os.path.exists(os.path.normpath(os.path.join(OUT, path))): bad.append((f, url))
 css = open(os.path.join(OUT, 'css/style.css')).read()
