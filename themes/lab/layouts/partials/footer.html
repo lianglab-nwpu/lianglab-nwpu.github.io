@@ -1,0 +1,16 @@
+<footer class="site-footer">
+ <div class="foot-main"><div class="wrap foot">
+  <div class="foot-id">
+   <div class="foot-brand"><span class="brand-mark"><img src="{{ "img/logo.svg" | relURL }}" alt="Lionel Liang Lab logo" width="40" height="40"></span><span>{{ site.Params.groupName }}</span></div>
+   <address><b>{{ site.Params.school }}</b><br><b>{{ site.Params.institution }}</b><br>{{ site.Params.city }}<br><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></address>
+  </div>
+  <div class="foot-cta">
+   <a class="btn" href="{{ "join/" | relURL }}">Join Us →</a>
+   <a class="btn line" href="{{ "contact/" | relURL }}">Contact</a>
+  </div>
+ </div></div>
+ <div class="foot-bar"><div class="wrap">
+  <nav class="foot-links">{{ range site.Menus.main }}<a href="{{ .URL | relURL }}">{{ .Name }}</a>{{ end }}<a href="{{ site.Params.facultyPage }}" rel="noopener">Faculty Page</a></nav>
+  <p>© {{ now.Year }} {{ site.Params.groupName }} · {{ site.Params.school }}, {{ site.Params.institution }}, {{ site.Params.city }}</p>
+ </div></div>
+</footer>

@@ -29,13 +29,14 @@ h2{font-size:clamp(1.6rem,2.6vw,2.1rem);font-weight:600;margin:0 0 .8rem}
 .idbar a{color:#fff7ee;font-weight:700}.idbar-sep{margin:0 .5em;opacity:.6}
 /* masthead + nav */
 .site-header{background:var(--paper);border-bottom:1px solid var(--line)}
-.masthead{display:flex;align-items:center;justify-content:space-between;padding-top:22px;padding-bottom:6px}
-.brand{display:flex;align-items:center;gap:12px;color:var(--ink)}.brand:hover{text-decoration:none}
+.masthead{display:flex;align-items:center;justify-content:space-between;padding-top:26px;padding-bottom:10px}
+.brand{display:flex;align-items:center;gap:18px;color:var(--ink)}.brand:hover{text-decoration:none}
 /* brand-mark = white round badge holding the lab logo (static/img/logo.svg) */
-.brand-mark{width:50px;height:50px;border-radius:50%;background:#fff;border:1px solid var(--line);box-shadow:0 1px 3px rgba(77,54,36,.12);display:grid;place-items:center;flex:none}.brand-mark img{width:47px;height:47px;display:block;object-fit:contain}
-.brand-inst{font-family:var(--display);font-size:1.8rem;font-weight:700;color:var(--brand);letter-spacing:.02em}
-.brand-bar{width:1px;height:28px;background:var(--ink);opacity:.6}
-.brand-name{font-family:var(--display);font-size:1.38rem;font-weight:500;color:var(--ink)}
+.brand-mark{width:80px;height:80px;border-radius:50%;background:#fff;border:1px solid var(--line);box-shadow:0 1px 3px rgba(77,54,36,.12);display:grid;place-items:center;flex:none}.brand-mark img{width:76px;height:76px;display:block;object-fit:contain}
+.foot-brand .brand-mark{width:50px;height:50px}.foot-brand .brand-mark img{width:47px;height:47px}
+.brand-inst{font-family:var(--display);font-size:2.2rem;font-weight:700;line-height:1;color:var(--brand);letter-spacing:.02em}
+.brand-bar{width:1.5px;height:42px;background:var(--ink);opacity:.6}
+.brand-name{font-family:var(--display);font-size:2.1rem;font-weight:600;line-height:1;color:var(--ink)}
 .navrow{display:flex;justify-content:flex-end}
 .menu{display:flex;gap:6px;flex-wrap:wrap}
 .menu a{font-family:var(--display);color:var(--brand);font-weight:500;font-size:1.05rem;letter-spacing:.01em;padding:10px 12px 12px;border-bottom:4px solid transparent}
@@ -162,7 +163,7 @@ figure{margin:0}figcaption{color:var(--muted);font-size:.88rem;margin-top:8px}
 @media (max-width:760px){
  body{font-size:17px}.wrap{padding:0 20px}
  .nav-toggle{display:block}.masthead{padding-top:14px;padding-bottom:14px}
- .brand-inst{font-size:1.3rem}.brand-name{font-size:1rem;line-height:1.2}.brand-bar{height:34px}.brand-mark{width:40px;height:40px}.brand-mark img{width:38px;height:38px}
+ .brand{gap:10px;min-width:0}.brand-inst{font-size:1.15rem}.brand-name{font-size:1.4rem;line-height:1.1}.brand-bar{height:30px}.brand-mark{width:52px;height:52px}.brand-mark img{width:49px;height:49px}.foot-brand .brand-mark{width:44px;height:44px}.foot-brand .brand-mark img{width:41px;height:41px}.nav-toggle{flex:none}
  .navrow{display:block;padding:0}
  .menu{display:none;flex-direction:column;gap:0;padding:0 20px 12px}.menu.open{display:flex}
  .menu a{border-bottom:1px solid var(--line);border-left:4px solid transparent;padding:12px 10px}.menu a.active{border-bottom-color:var(--line);border-left-color:var(--accent)}

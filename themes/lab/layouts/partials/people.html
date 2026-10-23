@@ -1,0 +1,26 @@
+{{ $pi := site.Data.people.pi }}
+<section class="pi" id="pi">
+ <img src="{{ $pi.photo | relURL }}" alt="{{ $pi.name }}">
+ <div>
+  <p class="tag">Principal Investigator</p>
+  <h2>{{ $pi.name }}</h2>
+  <p class="role">{{ $pi.title }}<br>{{ $pi.affiliation }}</p>
+  <p><a href="mailto:{{ $pi.email }}">{{ $pi.email }}</a></p>
+  <p>{{ $pi.bio }}</p>
+ </div>
+</section>
+<div class="cv">
+ <div><h3>Experience</h3><ul class="timeline">{{ range $pi.experience }}<li><span class="date">{{ .period }}</span><b>{{ .role }}</b><br>{{ .org }}</li>{{ end }}</ul>
+ <h3>Education</h3><ul class="timeline">{{ range $pi.education }}<li><span class="date">{{ .period }}</span><b>{{ .role }}</b><br>{{ .org }}</li>{{ end }}</ul></div>
+ <div><h3>Projects (PI)</h3><ul class="ticks">{{ range $pi.projects_lead }}<li>{{ . }}</li>{{ end }}</ul></div>
+ <div><h3>Projects (participant)</h3><ul class="ticks">{{ range $pi.projects_join }}<li>{{ . }}</li>{{ end }}</ul></div>
+</div>
+{{ range site.Data.people.groups }}
+<h2 class="group-h" id="{{ .name | urlize }}">{{ .name }}</h2>
+<div class="people">
+ {{ range .members }}<div class="person"><div class="avatar">{{ with .photo }}<img src="{{ . | relURL }}" alt="">{{ else }}<svg viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><circle cx="12" cy="8" r="4.2"/><path d="M3.5 21c.8-4.6 4.2-7 8.5-7s7.7 2.4 8.5 7z"/></svg>{{ end }}</div><b>{{ .name }}</b><span>{{ .role }}</span><small>{{ .topic }}</small></div>{{ end }}
+</div>
+{{ end }}
+<h2 class="group-h" id="lab-life">Lab Life</h2>
+<p class="note">We work hard, and we also take time to celebrate, travel, eat and laugh together.</p>
+<div class="life">{{ range site.Data.life }}<figure class="life-card"><img src="{{ .image | relURL }}" alt="{{ .title }}"><figcaption><b>{{ .title }}</b><span>{{ .caption }}</span></figcaption></figure>{{ end }}</div>

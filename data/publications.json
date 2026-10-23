@@ -1,0 +1,690 @@
+[
+ {
+  "title": "[Title, in press]",
+  "journal": "Nature Communications",
+  "year": 2026,
+  "doi": null,
+  "authors": [],
+  "volume": null,
+  "pages": null,
+  "status": "accepted (in press)"
+ },
+ {
+  "title": "Permeable Liquid Metal-Based Fibrous Patch with Dual-Bond Interconnects for Reliable Sensing and Closed-Loop Wound Care",
+  "journal": "ACS Nano",
+  "year": 2026,
+  "doi": "10.1021/acsnano.6c01802",
+  "authors": [
+   "Shenxing Tan",
+   "Yang Jiang",
+   "Jinwei Cao",
+   "Wenting Chen",
+   "Wei Cai",
+   "Xueyang Ge",
+   "Lin Hou",
+   "Xuewen Shi",
+   "Ren Yan",
+   "Qizeng Sun",
+   "Wenwu Sun",
+   "Xiuyue Wang",
+   "Tianmin Xu",
+   "Run-Wei Li",
+   "Fei Liang",
+   "Hai-Dong Yu"
+  ],
+  "volume": "20",
+  "pages": "16714-16729"
+ },
+ {
+  "title": "Bioinspired twist-hyperbolic metamaterial for impact buffering and self-powered real-time sensing in UAVs",
+  "journal": "Science Advances",
+  "year": 2025,
+  "doi": "10.1126/sciadv.adw6179",
+  "authors": [
+   "Xujiang Chao",
+   "Haoteng Hu",
+   "Jianjie Lin",
+   "Xueyang Ge",
+   "Yajun Wang",
+   "Linjie Xie",
+   "Bofan Hu",
+   "Liang Meng",
+   "Shudong Yu",
+   "Fei Liang",
+   "Lehua Qi",
+   "Zhong Lin Wang"
+  ],
+  "volume": "11",
+  "pages": "eadw6179"
+ },
+ {
+  "title": "A Kirigami-Driven Stretchable Paper-Based Hydrovoltaic Electricity Generator",
+  "journal": "Advanced Functional Materials",
+  "year": 2025,
+  "doi": "10.1002/adfm.202419753",
+  "authors": [
+   "Xuewen Shi",
+   "Yuewen Wei",
+   "Biao Tang",
+   "Yijia Li",
+   "Lei Lv",
+   "Shizhao Lin",
+   "Songzhu Luo",
+   "Tikang Wang",
+   "Shenxing Tan",
+   "Qizeng Sun",
+   "Xiuyue Wang",
+   "Xinyu Zheng",
+   "Yifei Guo",
+   "Fei Liang",
+   "Wei Huang",
+   "Hai‐Dong Yu"
+  ],
+  "volume": "35",
+  "pages": "2419753"
+ },
+ {
+  "title": "A triboelectric-field-mediated cuproptosis induction patch for melanoma recurrence suppression",
+  "journal": "Matter",
+  "year": 2025,
+  "doi": "10.1016/j.matt.2025.102088",
+  "authors": [
+   "Wenting Chen",
+   "Songjing Zhong",
+   "Qian Cai",
+   "Zhuoheng Jiang",
+   "Quanhong Hu",
+   "Chuyu Tang",
+   "Qinyu Zhao",
+   "Zhuo Wang",
+   "Shaobo Wang",
+   "Xinyu Zheng",
+   "Fei Liang",
+   "Hai-Dong Yu",
+   "Linlin Li"
+  ],
+  "volume": "8",
+  "pages": "102088"
+ },
+ {
+  "title": "Autonomous, Moisture-Driven Flexible Electrogenerative Dressing for Enhanced Wound Healing",
+  "journal": "Advanced Materials",
+  "year": 2025,
+  "doi": "10.1002/adma.202418074",
+  "authors": [
+   "Ren Yan",
+   "Xueliang Zhang",
+   "Hai Wang",
+   "Tikang Wang",
+   "Guozhang Ren",
+   "Qizeng Sun",
+   "Fei Liang",
+   "Yangzhi Zhu",
+   "Wei Huang",
+   "Hai‐Dong Yu"
+  ],
+  "volume": "37",
+  "pages": "2418074"
+ },
+ {
+  "title": "Radiative Cooling Droplet-Electricity Generator for Energy-Saving Houses",
+  "journal": "Advanced Materials Technologies",
+  "year": 2025,
+  "doi": "10.1002/admt.202500181",
+  "authors": [
+   "Yifei Guo",
+   "Shudong Yu",
+   "Lei Lv",
+   "Xueyang Ge",
+   "Jinhao Xu",
+   "Xujiang Chao",
+   "Xiuyue Wang",
+   "Xuewen Shi",
+   "Fei Liang",
+   "Hai‐Dong Yu",
+   "Dahua Shou"
+  ],
+  "volume": "10",
+  "pages": "2500181"
+ },
+ {
+  "title": "Recent Progress in Semi-Implantable Bioelectronics for Precision Health Monitoring",
+  "journal": "Advanced Functional Materials",
+  "year": 2025,
+  "doi": "10.1002/adfm.202424463",
+  "authors": [
+   "Wenting Chen",
+   "Xinyu Zheng",
+   "Yue Zhou",
+   "Wanyu Du",
+   "Fei Liang",
+   "Hai‐Dong Yu",
+   "Linlin Li"
+  ],
+  "volume": "35",
+  "pages": "2424463"
+ },
+ {
+  "title": "Self-powered tactile sensor for real-time recognition of Morse code based on machine learning",
+  "journal": "Nano Research",
+  "year": 2025,
+  "doi": "10.26599/nr.2025.94907167",
+  "authors": [
+   "Shenxing Tan",
+   "Yang Jiang",
+   "Xujiang Chao",
+   "Fei Liang",
+   "Ripeng Li",
+   "Tao Jiang",
+   "Hai-Dong Yu",
+   "Zhong Lin Wang"
+  ],
+  "volume": "18",
+  "pages": "94907167"
+ },
+ {
+  "title": "A durable, breathable, and weather-adaptive coating driven by particle self-assembly for radiative cooling and energy harvesting",
+  "journal": "Nano Energy",
+  "year": 2024,
+  "doi": "10.1016/j.nanoen.2024.109489",
+  "authors": [
+   "Jinhao Xu",
+   "Fei Liang",
+   "Zhaokun Wang",
+   "Xujiang Chao",
+   "Yuheng Gu",
+   "Ning Li",
+   "Haiqing Liu",
+   "Jun Wan",
+   "Xiaohui Zhang",
+   "Bing Li",
+   "Dongliang Zhao",
+   "Dahua Shou"
+  ],
+  "volume": "124",
+  "pages": "109489"
+ },
+ {
+  "title": "An Electrostatic-Induction-Enabled Anti-Touching Hydrogel Dressing for Chronic Wound Care",
+  "journal": "Advanced Functional Materials",
+  "year": 2024,
+  "doi": "10.1002/adfm.202402217",
+  "authors": [
+   "Ren Yan",
+   "Zhaoqing Sun",
+   "Wanyu Du",
+   "Nian Liu",
+   "Qizeng Sun",
+   "Peng Li",
+   "Fei Liang",
+   "Yangzhi Zhu",
+   "Wei Huang",
+   "Hai‐Dong Yu"
+  ],
+  "volume": "34",
+  "pages": "2402217"
+ },
+ {
+  "title": "Deep-learning-assisted self-powered wireless environmental monitoring system based on triboelectric nanogenerators with multiple sensing capabilities",
+  "journal": "Nano Energy",
+  "year": 2024,
+  "doi": "10.1016/j.nanoen.2024.110301",
+  "authors": [
+   "Long Liu",
+   "Xinmao Zhao",
+   "Tong Hu",
+   "Fei Liang",
+   "Binyong Guo",
+   "Kai Tao"
+  ],
+  "volume": "132",
+  "pages": "110301"
+ },
+ {
+  "title": "Nanosized Prussian blue and its analogs for bioimaging and cancer theranostics",
+  "journal": "Acta Biomaterialia",
+  "year": 2024,
+  "doi": "10.1016/j.actbio.2023.12.047",
+  "authors": [
+   "Pengfei Wang",
+   "Shaohua Sun",
+   "Guosheng Bai",
+   "Ruiqi Zhang",
+   "Fei Liang",
+   "Yuezhou Zhang"
+  ],
+  "volume": "176",
+  "pages": "77-98"
+ },
+ {
+  "title": "Density-of-States Matching-Induced Ultrahigh Current Density and High-Humidity Resistance in a Simply Structured Triboelectric Nanogenerator",
+  "journal": "Advanced Materials",
+  "year": 2023,
+  "doi": "10.1002/adma.202210915",
+  "authors": [
+   "Qizeng Sun",
+   "Fei Liang",
+   "Guozhang Ren",
+   "Linrong Zhang",
+   "Shunhao He",
+   "Kun Gao",
+   "Zhongyan Gong",
+   "Yulong Zhang",
+   "Xing Kang",
+   "Chengcheng Zhu",
+   "Yaxin Song",
+   "Huixiang Sheng",
+   "Gang Lu",
+   "Hai‐Dong Yu",
+   "Wei Huang"
+  ],
+  "volume": "35",
+  "pages": "2210915"
+ },
+ {
+  "title": "Skin-interfaced self-powered pressure and strain sensors based on fish gelatin-based hydrogel for wireless wound strain and human motion detection",
+  "journal": "Nano Energy",
+  "year": 2023,
+  "doi": "10.1016/j.nanoen.2023.108932",
+  "authors": [
+   "Ren Yan",
+   "Qizeng Sun",
+   "Xuewen Shi",
+   "Zhaoqing Sun",
+   "Shenxing Tan",
+   "Biao Tang",
+   "Wenting Chen",
+   "Fei Liang",
+   "Hai-Dong Yu",
+   "Wei Huang"
+  ],
+  "volume": "118",
+  "pages": "108932"
+ },
+ {
+  "title": "A Flexible and Ultra-Highly Sensitive Tactile Sensor through a Parallel Circuit by a Magnetic Aligned Conductive Composite",
+  "journal": "ACS Nano",
+  "year": 2022,
+  "doi": "10.1021/acsnano.1c08273",
+  "authors": [
+   "Yang Jiang",
+   "Fei Liang",
+   "Hua Yang Li",
+   "Xin Li",
+   "You Jun Fan",
+   "Jin Wei Cao",
+   "Yi Ming Yin",
+   "Ying Wang",
+   "Zhong Lin Wang",
+   "Guang Zhu"
+  ],
+  "volume": "16",
+  "pages": "746-754"
+ },
+ {
+  "title": "An All-Fabric Droplet-Based Energy Harvester with Topology Optimization",
+  "journal": "Advanced Energy Materials",
+  "year": 2022,
+  "doi": "10.1002/aenm.202102991",
+  "authors": [
+   "Fei Liang",
+   "Xujiang Chao",
+   "Shudong Yu",
+   "Yuheng Gu",
+   "Xiaohui Zhang",
+   "Xin Wei",
+   "Jintu Fan",
+   "Xiao‐ming Tao",
+   "Dahua Shou"
+  ],
+  "volume": "12",
+  "pages": "2102991"
+ },
+ {
+  "title": "Fractal-based model for evaluating the filtration efficiency of the non-woven fibrous composites",
+  "journal": "Fractals",
+  "year": 2022,
+  "doi": "10.1142/s0218348x22500633",
+  "authors": [
+   "Xujiang Chao",
+   "Dingyi Jiang",
+   "Xin Wei",
+   "Fei Liang",
+   "Yuheng Gu",
+   "Dahua Shou"
+  ],
+  "volume": "30",
+  "pages": "2250063"
+ },
+ {
+  "title": "Knitted self-powered sensing textiles for machine learning-assisted sitting posture monitoring and correction",
+  "journal": "Nano Research",
+  "year": 2022,
+  "doi": "10.1007/s12274-022-4409-0",
+  "authors": [
+   "Yang Jiang",
+   "Jie An",
+   "Fei Liang",
+   "Guoyu Zuo",
+   "Jia Yi",
+   "Chuan Ning",
+   "Hong Zhang",
+   "Kai Dong",
+   "Zhong Lin Wang"
+  ],
+  "volume": "15",
+  "pages": "8389-8397"
+ },
+ {
+  "title": "Ultra-robust stretchable electrode for e-skin: In situ assembly using a nanofiber scaffold and liquid metal to mimic water-to-net interaction",
+  "journal": "InfoMat",
+  "year": 2022,
+  "doi": "10.1002/inf2.12302",
+  "authors": [
+   "Jinwei Cao",
+   "Fei Liang",
+   "Huayang Li",
+   "Xin Li",
+   "Youjun Fan",
+   "Chao Hu",
+   "Jing Yu",
+   "Jin Xu",
+   "Yiming Yin",
+   "Fali Li",
+   "Dan Xu",
+   "Hanfang Feng",
+   "Huali Yang",
+   "Yiwei Liu",
+   "Xiaodong Chen",
+   "Guang Zhu",
+   "Run‐Wei Li"
+  ],
+  "volume": "4",
+  "pages": "e12302"
+ },
+ {
+  "title": "Facile Fabrication of Flexible Pressure Sensor with Programmable Lattice Structure",
+  "journal": "ACS Applied Materials & Interfaces",
+  "year": 2021,
+  "doi": "10.1021/acsami.0c21407",
+  "authors": [
+   "Yi Ming Yin",
+   "Hua Yang Li",
+   "Jin Xu",
+   "Chen Zhang",
+   "Fei Liang",
+   "Xin Li",
+   "Yang Jiang",
+   "Jin Wei Cao",
+   "Han Fang Feng",
+   "Jia Nan Mao",
+   "Ling Qin",
+   "Yi Fan Kang",
+   "Guang Zhu"
+  ],
+  "volume": "13",
+  "pages": "10388-10396"
+ },
+ {
+  "title": "UV-Protective, Self-Cleaning, and Antibacterial Nanofiber-Based Triboelectric Nanogenerators for Self-Powered Human Motion Monitoring",
+  "journal": "ACS Applied Materials & Interfaces",
+  "year": 2021,
+  "doi": "10.1021/acsami.0c22670",
+  "authors": [
+   "Yang Jiang",
+   "Kai Dong",
+   "Jie An",
+   "Fei Liang",
+   "Jia Yi",
+   "Xiao Peng",
+   "Chuan Ning",
+   "Cuiying Ye",
+   "Zhong Lin Wang"
+  ],
+  "volume": "13",
+  "pages": "11205-11214"
+ },
+ {
+  "title": "Ultracomfortable Hierarchical Nanonetwork for Highly Sensitive Pressure Sensor",
+  "journal": "ACS Nano",
+  "year": 2020,
+  "doi": "10.1021/acsnano.9b10230",
+  "authors": [
+   "Xin Li",
+   "You Jun Fan",
+   "Hua Yang Li",
+   "Jin Wei Cao",
+   "Yu Chuan Xiao",
+   "Ying Wang",
+   "Fei Liang",
+   "Hai Lu Wang",
+   "Yang Jiang",
+   "Zhong Lin Wang",
+   "Guang Zhu"
+  ],
+  "volume": "14",
+  "pages": "9605-9612"
+ },
+ {
+  "title": "Stretchable shape-adaptive liquid-solid interface nanogenerator enabled by in-situ charged nanocomposite membrane",
+  "journal": "Nano Energy",
+  "year": 2020,
+  "doi": "10.1016/j.nanoen.2019.104414",
+  "authors": [
+   "Fei Liang",
+   "Xue Jiao Zhao",
+   "Hua Yang Li",
+   "You Jun Fan",
+   "Jin Wei Cao",
+   "Zhong Lin Wang",
+   "Guang Zhu"
+  ],
+  "volume": "69",
+  "pages": "104414"
+ },
+ {
+  "title": "Layer-by-Layer Assembly of Nanofiber/Nanoparticle Artificial Skin for Strain-Insensitive UV Shielding and Visualized UV Detection",
+  "journal": "Advanced Materials Technologies",
+  "year": 2020,
+  "doi": "10.1002/admt.201900976",
+  "authors": [
+   "Fei Liang",
+   "You Jun Fan",
+   "Shuang Yang Kuang",
+   "Hai Lu Wang",
+   "Ying Wang",
+   "Peng Xu",
+   "Zhong Lin Wang",
+   "Guang Zhu"
+  ],
+  "volume": "5",
+  "pages": "1900976"
+ },
+ {
+  "title": "Charge Distribution and Stability of SiO2 Nanoarray Electret",
+  "journal": "ChemNanoMat",
+  "year": 2020,
+  "doi": "10.1002/cnma.201900632",
+  "authors": [
+   "Fei Liang",
+   "Hua Yang Li",
+   "Ying Wang",
+   "Shuang Yang Kuang",
+   "You Jun Fan",
+   "Zhong Lin Wang",
+   "Guang Zhu"
+  ],
+  "volume": "6",
+  "pages": "212-217"
+ },
+ {
+  "title": "Highly conductive, stretchable, and breathable epidermal electrode based on hierarchically interactive nano-network",
+  "journal": "Nanoscale",
+  "year": 2020,
+  "doi": "10.1039/d0nr03189e",
+  "authors": [
+   "You Jun Fan",
+   "Peng Tao Yu",
+   "Fei Liang",
+   "Xin Li",
+   "Hua Yang Li",
+   "Lu Liu",
+   "Jin Wei Cao",
+   "Xue Jiao Zhao",
+   "Zhong Lin Wang",
+   "Guang Zhu"
+  ],
+  "volume": "12",
+  "pages": "16053-16062"
+ },
+ {
+  "title": "A Contact-Sliding-Triboelectrification-Driven Dynamic Optical Transmittance Modulator for Self-Powered Information Covering and Selective Visualization",
+  "journal": "Advanced Materials",
+  "year": 2019,
+  "doi": "10.1002/adma.201904988",
+  "authors": [
+   "Chen Zhang",
+   "Zihao Guo",
+   "Xiaoxiong Zheng",
+   "Xuejiao Zhao",
+   "Hailu Wang",
+   "Fei Liang",
+   "Song Guan",
+   "Ying Wang",
+   "Yongbin Zhao",
+   "Aihua Chen",
+   "Guang Zhu",
+   "Zhong Lin Wang"
+  ],
+  "volume": "32",
+  "pages": "1904988"
+ },
+ {
+  "title": "Effect of dispersion on visible light transmittance and resistivity of indium tin oxide nanoparticles prepared by cetyltrimethylammonium bromide-assisted coprecipitation method",
+  "journal": "Journal of Materials Science: Materials in Electronics",
+  "year": 2019,
+  "doi": "10.1007/s10854-019-02150-x",
+  "authors": [
+   "Yunqian Ma",
+   "Fei Liang",
+   "Youxing Liu",
+   "Xiaoyu Zhai",
+   "Jiaxiang Liu"
+  ],
+  "volume": "30",
+  "pages": "17963-17971"
+ },
+ {
+  "title": "Sintering and Electricity Properties of ITO Targets with Bi2O3–ZnO Addition",
+  "journal": "Powder Metallurgy and Metal Ceramics",
+  "year": 2019,
+  "doi": "10.1007/s11106-019-00048-1",
+  "authors": [
+   "Yu-Jie Chen",
+   "Fei Liang",
+   "Jia-xiang Liu"
+  ],
+  "volume": "58",
+  "pages": "64-72"
+ },
+ {
+  "title": "Self-Powered Electrowetting Valve for Instantaneous and Simultaneous Actuation of Paper-Based Microfluidic Assays",
+  "journal": "Advanced Functional Materials",
+  "year": 2019,
+  "doi": "10.1002/adfm.201808974",
+  "authors": [
+   "Zi Hao Guo",
+   "Yu Cui Jiao",
+   "Hai Lu Wang",
+   "Chen Zhang",
+   "Fei Liang",
+   "Jin Long Liu",
+   "Hai Dong Yu",
+   "Cheng Ming Li",
+   "Guang Zhu",
+   "Zhong Lin Wang"
+  ],
+  "volume": "29",
+  "pages": "1808974"
+ },
+ {
+  "title": "Highly Robust, Transparent, and Breathable Epidermal Electrode",
+  "journal": "ACS Nano",
+  "year": 2018,
+  "doi": "10.1021/acsnano.8b04245",
+  "authors": [
+   "You Jun Fan",
+   "Xin Li",
+   "Shuang Yang Kuang",
+   "Lei Zhang",
+   "Yang Hui Chen",
+   "Lu Liu",
+   "Ke Zhang",
+   "Si Wei Ma",
+   "Fei Liang",
+   "Tao Wu",
+   "Zhong Lin Wang",
+   "Guang Zhu"
+  ],
+  "volume": "12",
+  "pages": "9326-9332"
+ },
+ {
+  "title": "Triboelectrification-Induced Self-Assembly of Macro-Sized Polymer Beads on a Nanostructured Surface for Self-Powered Patterning",
+  "journal": "ACS Nano",
+  "year": 2018,
+  "doi": "10.1021/acsnano.7b06758",
+  "authors": [
+   "Ying Wang",
+   "Xiao Yan Wei",
+   "Shuang Yang Kuang",
+   "Hua Yang Li",
+   "Yang Hui Chen",
+   "Fei Liang",
+   "Li Su",
+   "Zhong Lin Wang",
+   "Guang Zhu"
+  ],
+  "volume": "12",
+  "pages": "441-447"
+ },
+ {
+  "title": "Quantitative Analysis of Micron-Scale and Nano-Scale Pore Throat Characteristics of Tight Sandstone Using Matlab",
+  "journal": "Applied Sciences",
+  "year": 2018,
+  "doi": "10.3390/app8081272",
+  "authors": [
+   "Bo Jiu",
+   "Wenhui Huang",
+   "Mingqian He",
+   "Chenhang Lv",
+   "Fei Liang"
+  ],
+  "volume": "8",
+  "pages": "1272"
+ },
+ {
+  "title": "Sintering, microstructure and electricity properties of ITO targets with Bi 2 O 3 –Nb 2 O 5 addition",
+  "journal": "Ceramics International",
+  "year": 2017,
+  "doi": "10.1016/j.ceramint.2017.02.009",
+  "authors": [
+   "Fei Liang",
+   "Jiaxiang Liu"
+  ],
+  "volume": "43",
+  "pages": "5856-5861"
+ },
+ {
+  "title": "Photoluminescence properties of hexagonal indium tin oxide nanopowders prepared by solvothermal method",
+  "journal": "Rare Metals",
+  "year": 2017,
+  "doi": "10.1007/s12598-016-0831-3",
+  "authors": [
+   "Fei Liang",
+   "Jia‐Xiang Liu"
+  ],
+  "volume": "37",
+  "pages": "47-53"
+ }
+]

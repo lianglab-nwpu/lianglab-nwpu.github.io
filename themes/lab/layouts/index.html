@@ -1,0 +1,47 @@
+{{ define "main" }}
+<section class="hero" style="background-image:linear-gradient(rgba(78,53,34,.52),rgba(120,70,45,.40)),url('{{ "img/research/hero_framework.webp" | relURL }}')">
+ <div class="wrap"><h1>Self-Powered Intelligent Flexible Electronics</h1><p>Electronics that power themselves, sense intelligently, and work in the air, in space and under the sea.</p></div>
+</section>
+
+<section class="wrap welcome">
+ <h2>Welcome to the {{ site.Params.groupName }}</h2>
+ <div class="welcome-text">{{ .Content }}</div>
+</section>
+
+<section class="wrap feature-row">
+ <figure><a href="{{ "people/" | relURL }}#pi"><img class="feat-pi" src="{{ "img/pi.png" | relURL }}" alt="{{ site.Params.piName }}"></a><figcaption><a href="{{ "people/" | relURL }}#pi">Meet the PI ↗</a><span>{{ site.Params.piName }} — {{ site.Params.piTitle }}</span></figcaption></figure>
+ <figure><a href="{{ "research/" | relURL }}"><img src="{{ "img/research/hero_framework.webp" | relURL }}" alt="Research framework (AI-generated illustration)"></a><figcaption><a href="{{ "research/" | relURL }}">Our research framework ↗</a><span>One theme, three connected pillars.</span></figcaption></figure>
+ <figure><a href="{{ "join/" | relURL }}"><img src="{{ "img/campus.jpg" | relURL }}" alt="NWPU campus"></a><figcaption><a href="{{ "join/" | relURL }}">We are recruiting ↗</a><span>Ph.D. students and postdocs with strong self-drive.</span></figcaption></figure>
+</section>
+
+<section class="wrap block">
+ <h2 class="center">Research Pillars</h2>
+ <div class="cards">
+  {{ range site.Data.research }}
+  <article class="hcard"><a class="hcard-img" href="{{ "research/" | relURL }}#{{ .id }}"><img src="{{ .image | relURL }}" alt="{{ .title }}"></a>
+   <div class="hcard-body"><h3><a href="{{ "research/" | relURL }}#{{ .id }}">{{ .title }}</a> <span class="arrow">↗</span></h3><p class="date">Pillar {{ .num }} · {{ .subtitle }}</p><p>{{ .summary }}</p><span class="cat">Research</span></div></article>
+  {{ end }}
+ </div>
+</section>
+
+<section class="band"><div class="wrap block pi-note">
+ <img src="{{ "img/pi.png" | relURL }}" alt="{{ site.Params.piName }}">
+ <div><h2>A Note from the PI</h2><div class="welcome-note">{{ .Params.welcome | markdownify }}</div><p class="sign">— {{ .Params.welcomeSign }}</p></div>
+</div></section>
+
+<section class="wrap block">
+ <h2 class="center">Latest Publication Highlights</h2>
+ <div class="cards">
+  {{ range first 3 (where site.Data.publications "doi" "!=" nil) }}
+  <article class="hcard text"><div class="hcard-body"><h3><a href="https://doi.org/{{ .doi }}" rel="noopener">{{ .title }}</a> <span class="arrow">↗</span></h3><p class="date"><em>{{ .journal }}</em> · {{ .year }}</p><span class="cat">Publication</span></div></article>
+  {{ end }}
+ </div>
+ <p class="center"><a class="more" href="{{ "publications/" | relURL }}">All publications ›</a></p>
+</section>
+
+<section class="wrap block narrow">
+ <h2 class="center">Lab News</h2>
+ <ul class="newslist">{{ range first 5 site.Data.news }}<li><span class="date">{{ .date }}</span><h3>{{ if .doi }}<a href="https://doi.org/{{ .doi }}" rel="noopener">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</h3><span class="cat">{{ if .doi }}Publication{{ else }}Lab News{{ end }}</span></li>{{ end }}</ul>
+ <p class="center"><a class="more" href="{{ "news/" | relURL }}">All news ›</a></p>
+</section>
+{{ end }}

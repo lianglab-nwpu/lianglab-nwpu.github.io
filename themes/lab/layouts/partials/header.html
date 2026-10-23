@@ -1,0 +1,18 @@
+<div class="idbar"><div class="wrap"><a href="https://www.nwpu.edu.cn/" rel="noopener">{{ site.Params.institution }}</a><span class="idbar-sep">·</span><span>{{ site.Params.school }}</span></div></div>
+<header class="site-header">
+ <div class="wrap masthead">
+  <a class="brand" href="{{ "/" | relURL }}">
+   <span class="brand-mark"><img src="{{ "img/logo.svg" | relURL }}" alt="Lionel Liang Lab logo" width="40" height="40"></span>
+   <span class="brand-inst">NWPU</span><span class="brand-bar" aria-hidden="true"></span><span class="brand-name">{{ site.Params.groupName }}</span>
+  </a>
+  <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+ </div>
+ <div class="wrap navrow">
+  <nav class="menu" aria-label="Main">
+   {{ $cur := . }}
+   {{ range site.Menus.main }}
+   <a href="{{ .URL | relURL }}" class="{{ if or (and $cur.IsHome (eq .URL "/")) (and (not $cur.IsHome) (eq (printf "/%s/" (path.Base $cur.RelPermalink)) .URL)) }}active{{ end }}">{{ .Name }}</a>
+   {{ end }}
+  </nav>
+ </div>
+</header>

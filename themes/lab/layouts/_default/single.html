@@ -1,0 +1,36 @@
+{{ define "main" }}
+{{ partial "banner.html" . }}
+{{ $t := .Params.pagetype }}
+<div class="wrap with-side">
+ <aside class="side">
+  <nav class="sidenav" aria-label="Section">
+  {{ if eq $t "research" }}
+   <a href="#theme">Overview</a>{{ range site.Data.research }}<a href="#{{ .id }}">{{ .title }}</a>
+   {{ end }}
+  {{ else if eq $t "people" }}
+   <a href="#pi">Principal Investigator</a>{{ range site.Data.people.groups }}<a href="#{{ .name | urlize }}">{{ .name }}</a>
+   {{ end }}<a href="#lab-life">Lab Life</a><a href="{{ "join/" | relURL }}">Opportunities</a>
+  {{ else if eq $t "publications" }}
+   {{ $years := slice }}{{ range site.Data.publications }}{{ if not (in $years .year) }}{{ $years = $years | append .year }}{{ end }}{{ end }}{{ range $years }}<a href="#y{{ . }}">{{ . }} Publications</a>
+   {{ end }}
+  {{ else if eq $t "news" }}
+   {{ $years := slice }}{{ range site.Data.news }}{{ if not (in $years .date) }}{{ $years = $years | append .date }}{{ end }}{{ end }}{{ range $years }}<a href="#n{{ . }}">{{ . }}</a>
+   {{ end }}
+  {{ else if .Params.sidenav }}
+   {{ range .Params.sidenav }}<a href="#{{ .id }}">{{ .name }}</a>
+   {{ end }}
+  {{ else }}
+   {{ range site.Menus.main }}{{ if ne .URL "/" }}<a href="{{ .URL | relURL }}">{{ .Name }}</a>
+   {{ end }}{{ end }}
+  {{ end }}
+  </nav>
+ </aside>
+ <div class="main-col">
+  {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+  {{ if eq $t "research" }}{{ partial "research.html" $ }}{{ end }}
+  {{ if eq $t "people" }}{{ partial "people.html" $ }}{{ end }}
+  {{ if eq $t "publications" }}{{ partial "publications.html" $ }}{{ end }}
+  {{ if eq $t "news" }}{{ partial "news.html" $ }}{{ end }}
+ </div>
+</div>
+{{ end }}

@@ -1,0 +1,15 @@
+{{ $pubs := site.Data.publications }}
+{{ range $i, $r := site.Data.research }}
+<article class="research" id="{{ $r.id }}">
+ <img src="{{ $r.image | relURL }}" alt="{{ $r.title }} (AI-generated illustration)">
+ <div class="research-body">
+  <p class="tag">Pillar {{ $r.num }}</p>
+  <h2>{{ $r.title }}</h2>
+  <p class="pillar-sub">{{ $r.subtitle }}</p>
+  <p>{{ $r.summary }}</p>
+  <ul class="ticks">{{ range $r.points }}<li>{{ . }}</li>{{ end }}</ul>
+  <h4>Representative work</h4>
+  <ul class="reps">{{ range $r.dois }}{{ $d := . }}{{ range where $pubs "doi" $d }}<li><a href="https://doi.org/{{ .doi }}" rel="noopener">{{ .title }}</a> <em>{{ .journal }}</em> ({{ .year }})</li>{{ end }}{{ end }}</ul>
+ </div>
+</article>
+{{ end }}

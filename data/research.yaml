@@ -1,0 +1,34 @@
+- id: self-powered
+  num: "01"
+  title: "Self-Powered"
+  subtitle: "Energy-harvesting materials & device design"
+  image: "img/research/pillar_selfpowered.webp"
+  summary: "We design materials and devices that generate their own electricity from motion, water and moisture — so that flexible electronics can run without batteries."
+  points:
+    - "Triboelectric nanogenerators (TENGs) and the physics of contact electrification"
+    - "Liquid–solid, droplet and hydrovoltaic energy harvesting"
+    - "Liquid-metal and nanofiber stretchable conductors and electrodes"
+    - "Self-powered bioelectronic patches and dressings for health care"
+  dois: ["10.1002/adma.202210915", "10.1002/aenm.202102991", "10.1002/adfm.202419753", "10.1021/acsnano.6c01802"]
+- id: intelligent
+  num: "02"
+  title: "Intelligent"
+  subtitle: "AI-based sensing materials & AI-empowered sensing systems"
+  image: "img/research/pillar_intelligent.webp"
+  summary: "We bring artificial intelligence into both ends of the sensing chain: using data-driven methods to discover and design better sensing materials, and building smart, self-powered systems that understand the signals they collect."
+  points:
+    - "AI-guided discovery and design of sensing and energy materials"
+    - "Signal processing and machine-learning recognition of multimodal sensor data"
+    - "Edge-intelligent, self-powered wireless sensing systems and human–machine interfaces"
+  dois: ["10.1016/j.nanoen.2024.110301", "10.1007/s12274-022-4409-0", "10.26599/nr.2025.94907167", "10.1021/acsnano.1c08273"]
+- id: extreme
+  num: "03"
+  title: "Flexible for Extreme Environments"
+  subtitle: "Flexible electronics for aeronautics, astronautics & marine engineering"
+  image: "img/research/pillar_extreme.webp"
+  summary: "We take flexible, self-powered electronics out of the lab and into the air, space and sea — conformal sensors that keep working on aircraft surfaces, in orbit and underwater."
+  points:
+    - "Self-powered aerodynamic-state sensing skins for aircraft wing surfaces"
+    - "Impact-protective, self-sensing structures for UAVs"
+    - "Devices that withstand harsh temperature, pressure, radiation and underwater conditions"
+  dois: ["10.1126/sciadv.adw6179", "10.1016/j.nanoen.2024.109489", "10.1002/admt.201900976"]

@@ -1,0 +1,51 @@
+baseURL = "/"
+relativeURLs = true
+languageCode = "en-us"
+title = "Lionel Liang Lab | NWPU"
+theme = "lab"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+enableRobotsTXT = false
+
+[params]
+  groupName = "Lionel Liang Lab"
+  groupTagline = "Northwestern Polytechnical University"
+  piName = "Fei Liang"
+  piTitle = "Tenured Associate Professor, Ph.D. Supervisor, Principal Investigator (PI) of the Self-Powered Intelligent Flexible Sensing Group"
+  school = "School of Flexible Electronics"
+  institution = "Northwestern Polytechnical University"
+  city = "Xi'an, Shaanxi, China"
+  email = "iamfliang@nwpu.edu.cn"
+  facultyPage = "https://teacher.nwpu.edu.cn/feiliang.html"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 2
+  [[menu.main]]
+    name = "People"
+    url = "/people/"
+    weight = 3
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 4
+  [[menu.main]]
+    name = "News"
+    url = "/news/"
+    weight = 5
+  [[menu.main]]
+    name = "Join Us"
+    url = "/join/"
+    weight = 6
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 7
+
+[markup.goldmark.renderer]
+  unsafe = true

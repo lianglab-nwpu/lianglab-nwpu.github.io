@@ -1,0 +1,44 @@
+pi:
+  name: "Fei Liang"
+  title: "Tenured Associate Professor, Ph.D. Supervisor, Principal Investigator (PI) of the Self-Powered Intelligent Flexible Sensing Group"
+  affiliation: "School of Flexible Electronics, Northwestern Polytechnical University"
+  photo: "img/pi.png"
+  email: "iamfliang@nwpu.edu.cn"
+  bio: "Dr. Fei Liang is a Tenured Associate Professor and Ph.D. Supervisor at the School of Flexible Electronics, Northwestern Polytechnical University (NWPU). His research focuses on the design of self-powered flexible electronic materials and devices and their applications in health electronics, energy harvesting, and interfacial sensing for special equipment in aerospace and marine environments. He has published more than 30 papers in leading journals including Science Advances, Nature Communications, Matter, and Advanced Materials, and has co-authored one academic monograph. He leads projects funded by the National Natural Science Foundation of China (General Program and Young Scientists Fund) and serves as Chief Scientist of a Qinchuangyuan “Scientist + Engineer” team."
+  experience:
+    - period: "Sep 2022 – present"
+      role: "Tenured Associate Professor"
+      org: "Northwestern Polytechnical University"
+    - period: "Dec 2020 – Sep 2022"
+      role: "Postdoctoral Research Fellow"
+      org: "The Hong Kong Polytechnic University"
+  education:
+    - period: "Sep 2017 – Jul 2020"
+      role: "Ph.D. in Engineering"
+      org: "National Center for Nanoscience and Technology, China"
+  projects_lead:
+    - "National Natural Science Foundation of China — General Program"
+    - "National Natural Science Foundation of China — Young Scientists Fund"
+    - "Qinchuangyuan “Scientist + Engineer” Team Program — Chief Scientist"
+    - "Open Fund, Zhejiang Key Laboratory of Flexible Electronics"
+    - "Open Fund, Laboratory of Aerospace Entry, Deceleration and Landing Technology"
+    - "Fundamental Research Funds for the Central Universities"
+  projects_join:
+    - "National Key R&D Program of China — Key Team Member"
+groups:
+  - name: "Postdoctoral Researchers"
+    members:
+      - {name: "Dr. Shabnam Yavari", role: "Postdoctoral Fellow", topic: "Nanofiber-based triboelectric and piezo-triboelectric nanogenerators for energy harvesting and self-powered sensing"}
+      - {name: "Dr. Sorour Faramarzi", role: "Postdoctoral Fellow", topic: "First-principles (DFT) design of 2D nanomaterials and tribo-polymer films for triboelectric and energy-storage devices"}
+  - name: "Ph.D. Students"
+    members:
+      - {name: "[Name]", role: "Ph.D. Student", topic: "[Research topic]"}
+      - {name: "[Name]", role: "Ph.D. Student", topic: "[Research topic]"}
+      - {name: "[Name]", role: "Ph.D. Student", topic: "[Research topic]"}
+      - {name: "[Name]", role: "Ph.D. Student", topic: "[Research topic]"}
+      - {name: "[Name]", role: "Ph.D. Student", topic: "[Research topic]"}
+  - name: "Master's Students"
+    members:
+      - {name: "[Name]", role: "M.S. Student", topic: "[Research topic]"}
+      - {name: "[Name]", role: "M.S. Student", topic: "[Research topic]"}
+      - {name: "[Name]", role: "M.S. Student", topic: "[Research topic]"}

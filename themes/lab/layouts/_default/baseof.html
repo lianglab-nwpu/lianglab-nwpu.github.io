@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Params.groupName }}{{ end }}</title>
+<meta name="description" content="{{ site.Params.groupName }}, {{ site.Params.school }}, {{ site.Params.institution }}">
+<link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="any">
+<link rel="icon" href="{{ "img/logo.svg" | relURL }}" type="image/svg+xml">
+<link rel="icon" href="{{ "favicon-32.png" | relURL }}" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
+<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+</head>
+<body class="page-{{ with .File }}{{ .ContentBaseName }}{{ else }}home{{ end }}">
+<a class="skip" href="#main">Skip to main content</a>
+{{ partial "header.html" . }}
+<main id="main">{{ block "main" . }}{{ end }}</main>
+{{ partial "footer.html" . }}
+<script src="{{ "js/site.js" | relURL }}" defer></script>
+</body>
+</html>

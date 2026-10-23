@@ -1,0 +1,1 @@
+<ul class="newslist">{{ range site.Data.news }}<li id="n{{ .date }}"><span class="date">{{ .date }}</span><h3>{{ if .doi }}<a href="https://doi.org/{{ .doi }}" rel="noopener">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</h3><span class="cat">{{ if .doi }}Publication{{ else }}Lab News{{ end }}</span></li>{{ end }}</ul>
