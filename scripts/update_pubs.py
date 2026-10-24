@@ -53,6 +53,8 @@ for d in out:
     d.update(extra.get(_key(d), {}))
     st = starred.get(_key(d), {})
     d['authors'] = [a.rstrip('*#') + st[_norm(a)] if _norm(a) in st else a for a in d['authors']]
+MIN_YEAR = 2023  # only list papers from this year on
+out = [x for x in out if (x['year'] or 9999) >= MIN_YEAR]
 out.sort(key=lambda x: -(x['year'] or 0))
 json.dump(out, open('data/publications.json', 'w'), ensure_ascii=False, indent=1)
 print(len(out), 'publications written')
