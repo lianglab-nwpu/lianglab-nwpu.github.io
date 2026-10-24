@@ -118,7 +118,7 @@
    "Tikang Wang",
    "Guozhang Ren",
    "Qizeng Sun",
-   "Fei Liang",
+   "Fei Liang*",
    "Yangzhi Zhu",
    "Wei Huang",
    "Hai‐Dong Yu"
@@ -250,8 +250,8 @@
    "Shaohua Sun",
    "Guosheng Bai",
    "Ruiqi Zhang",
-   "Fei Liang",
-   "Yuezhou Zhang"
+   "Fei Liang*",
+   "Yuezhou Zhang*"
   ],
   "volume": "176",
   "pages": "77-98"
@@ -647,21 +647,6 @@
   ],
   "volume": "12",
   "pages": "441-447"
- },
- {
-  "title": "Quantitative Analysis of Micron-Scale and Nano-Scale Pore Throat Characteristics of Tight Sandstone Using Matlab",
-  "journal": "Applied Sciences",
-  "year": 2018,
-  "doi": "10.3390/app8081272",
-  "authors": [
-   "Bo Jiu",
-   "Wenhui Huang*",
-   "Mingqian He",
-   "Chenhang Lv",
-   "Fei Liang"
-  ],
-  "volume": "8",
-  "pages": "1272"
  },
  {
   "title": "Sintering, microstructure and electricity properties of ITO targets with Bi 2 O 3 –Nb 2 O 5 addition",

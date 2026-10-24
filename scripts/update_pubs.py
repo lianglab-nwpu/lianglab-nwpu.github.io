@@ -20,12 +20,16 @@ extra = {_key(d): {k: d[k] for k in KEEP if d.get(k)} for d in old}
 # keep hand-marked corresponding authors ("Name*") when refreshing
 _norm = lambda a: re.sub(r'[\u2010\u2011-]', '-', a.rstrip('*')).strip().lower()
 starred = {_key(d): {_norm(a) for a in d.get('authors', []) if a.endswith('*')} for d in old}
+# DOIs on the PI's ORCID that are not the PI's own work (never re-add)
+EXCLUDE = {'10.3390/app8081272'}
 works = get(f"https://pub.orcid.org/v3.0/{ORCID}/works")
 out = []
 for g in works['group']:
     s = g['work-summary'][0]
     doi = next((e['external-id-value'].lower() for e in (g.get('external-ids') or {}).get('external-id', [])
                 if e['external-id-type'] == 'doi'), None)
+    if doi in EXCLUDE:
+        continue
     title = s['title']['title']['value']
     journal = (s.get('journal-title') or {}).get('value')
     year = ((s.get('publication-date') or {}).get('year') or {}).get('value')
