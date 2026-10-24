@@ -1,6 +1,8 @@
 {{ $p := . }}
-<li class="pub">
+<li class="pub{{ with $p.image }} pub-card{{ end }}">
+ {{ with $p.image }}<div class="pub-card-in"><a class="pub-img" href="{{ . | relURL }}" target="_blank" rel="noopener" title="View full size"><img src="{{ . | relURL }}" alt="{{ $p.image_alt | default $p.title }}" loading="lazy"></a><div class="pub-body">{{ end }}
  <div class="pub-title">{{ if $p.doi }}<a href="https://doi.org/{{ $p.doi }}" rel="noopener">{{ $p.title }}</a>{{ else }}{{ $p.title }}{{ end }}</div>
  {{ with $p.authors }}<div class="pub-authors">{{ range $i, $a := . }}{{ if $i }}, {{ end }}{{ if and (in (lower $a) "liang") (in (lower $a) "fei") }}<b>{{ $a }}</b>{{ else }}{{ $a }}{{ end }}{{ end }}</div>{{ end }}
  <div class="pub-meta"><em>{{ $p.journal }}</em>{{ with $p.status }}, {{ . }}{{ else }}{{ with $p.year }} ({{ . }}){{ end }}{{ end }}{{ with $p.volume }}, {{ . }}{{ end }}{{ with $p.pages }}, {{ . }}{{ end }}{{ with $p.doi }} · <a class="doi" href="https://doi.org/{{ . }}" rel="noopener">DOI: {{ . }}</a>{{ end }}</div>
+ {{ with $p.image }}</div></div>{{ end }}
 </li>

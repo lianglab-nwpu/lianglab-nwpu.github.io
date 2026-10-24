@@ -9,6 +9,14 @@ FIX = {'ACS NANO':'ACS Nano','ADVANCED FUNCTIONAL MATERIALS':'Advanced Functiona
 def get(url, accept='application/json'):
     req = urllib.request.Request(url, headers={'Accept': accept, 'User-Agent': 'labsite/1.0'})
     return json.load(urllib.request.urlopen(req, timeout=30))
+# keep hand-added fields (e.g. "image", "image_alt") when refreshing
+KEEP = ('image', 'image_alt')
+try:
+    old = json.load(open('data/publications.json'))
+except Exception:
+    old = []
+def _key(d): return (d.get('doi') or '').lower() or re.sub(r'\W+', '', (d.get('title') or '').lower())
+extra = {_key(d): {k: d[k] for k in KEEP if d.get(k)} for d in old}
 works = get(f"https://pub.orcid.org/v3.0/{ORCID}/works")
 out = []
 for g in works['group']:
@@ -34,6 +42,8 @@ for g in works['group']:
     authors = [a.title() if a.isupper() else re.sub(r'\s+', ' ', a) for a in authors]
     out.append(dict(title=title, journal=journal, year=int(year) if year else None, doi=doi,
                     authors=authors, volume=vol, pages=pages))
+for d in out:
+    d.update(extra.get(_key(d), {}))
 out.sort(key=lambda x: -(x['year'] or 0))
 json.dump(out, open('data/publications.json', 'w'), ensure_ascii=False, indent=1)
 print(len(out), 'publications written')
