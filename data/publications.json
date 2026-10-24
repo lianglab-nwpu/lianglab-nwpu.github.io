@@ -41,7 +41,7 @@
   "year": 2025,
   "doi": "10.1126/sciadv.adw6179",
   "authors": [
-   "Xujiang Chao",
+   "Xujiang Chao*",
    "Haoteng Hu",
    "Jianjie Lin",
    "Xueyang Ge",
@@ -50,9 +50,9 @@
    "Bofan Hu",
    "Liang Meng",
    "Shudong Yu",
-   "Fei Liang",
-   "Lehua Qi",
-   "Zhong Lin Wang"
+   "Fei Liang*",
+   "Lehua Qi*",
+   "Zhong Lin Wang*"
   ],
   "volume": "11",
   "pages": "eadw6179"
@@ -76,9 +76,9 @@
    "Xiuyue Wang",
    "Xinyu Zheng",
    "Yifei Guo",
-   "Fei Liang",
-   "Wei Huang",
-   "Hai‐Dong Yu"
+   "Fei Liang*",
+   "Wei Huang*",
+   "Hai‐Dong Yu*"
   ],
   "volume": "35",
   "pages": "2419753"
@@ -157,9 +157,9 @@
    "Xinyu Zheng",
    "Yue Zhou",
    "Wanyu Du",
-   "Fei Liang",
-   "Hai‐Dong Yu",
-   "Linlin Li"
+   "Fei Liang*",
+   "Hai‐Dong Yu*",
+   "Linlin Li*"
   ],
   "volume": "35",
   "pages": "2424463"
@@ -175,9 +175,9 @@
    "Xujiang Chao",
    "Fei Liang",
    "Ripeng Li",
-   "Tao Jiang",
-   "Hai-Dong Yu",
-   "Zhong Lin Wang"
+   "Tao Jiang*",
+   "Hai-Dong Yu*",
+   "Zhong Lin Wang*"
   ],
   "volume": "18",
   "pages": "94907167"
@@ -655,7 +655,7 @@
   "doi": "10.3390/app8081272",
   "authors": [
    "Bo Jiu",
-   "Wenhui Huang",
+   "Wenhui Huang*",
    "Mingqian He",
    "Chenhang Lv",
    "Fei Liang"

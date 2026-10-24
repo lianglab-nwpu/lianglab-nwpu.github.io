@@ -17,6 +17,9 @@ except Exception:
     old = []
 def _key(d): return (d.get('doi') or '').lower() or re.sub(r'\W+', '', (d.get('title') or '').lower())
 extra = {_key(d): {k: d[k] for k in KEEP if d.get(k)} for d in old}
+# keep hand-marked corresponding authors ("Name*") when refreshing
+_norm = lambda a: re.sub(r'[\u2010\u2011-]', '-', a.rstrip('*')).strip().lower()
+starred = {_key(d): {_norm(a) for a in d.get('authors', []) if a.endswith('*')} for d in old}
 works = get(f"https://pub.orcid.org/v3.0/{ORCID}/works")
 out = []
 for g in works['group']:
@@ -44,6 +47,8 @@ for g in works['group']:
                     authors=authors, volume=vol, pages=pages))
 for d in out:
     d.update(extra.get(_key(d), {}))
+    st = starred.get(_key(d), set())
+    d['authors'] = [a + '*' if _norm(a) in st and not a.endswith('*') else a for a in d['authors']]
 out.sort(key=lambda x: -(x['year'] or 0))
 json.dump(out, open('data/publications.json', 'w'), ensure_ascii=False, indent=1)
 print(len(out), 'publications written')
