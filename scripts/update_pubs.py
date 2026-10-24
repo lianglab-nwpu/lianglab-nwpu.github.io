@@ -18,8 +18,8 @@ except Exception:
 def _key(d): return (d.get('doi') or '').lower() or re.sub(r'\W+', '', (d.get('title') or '').lower())
 extra = {_key(d): {k: d[k] for k in KEEP if d.get(k)} for d in old}
 # keep hand-marked corresponding authors ("Name*") when refreshing
-_norm = lambda a: re.sub(r'[\u2010\u2011-]', '-', a.rstrip('*')).strip().lower()
-starred = {_key(d): {_norm(a) for a in d.get('authors', []) if a.endswith('*')} for d in old}
+_norm = lambda a: re.sub(r'[\u2010\u2011-]', '-', a.rstrip('*#')).strip().lower()
+starred = {_key(d): {_norm(a): a[len(a.rstrip('*#')):] for a in d.get('authors', []) if a.endswith(('*', '#'))} for d in old}
 # DOIs on the PI's ORCID that are not the PI's own work (never re-add)
 EXCLUDE = {'10.3390/app8081272'}
 works = get(f"https://pub.orcid.org/v3.0/{ORCID}/works")
@@ -51,8 +51,8 @@ for g in works['group']:
                     authors=authors, volume=vol, pages=pages))
 for d in out:
     d.update(extra.get(_key(d), {}))
-    st = starred.get(_key(d), set())
-    d['authors'] = [a + '*' if _norm(a) in st and not a.endswith('*') else a for a in d['authors']]
+    st = starred.get(_key(d), {})
+    d['authors'] = [a.rstrip('*#') + st[_norm(a)] if _norm(a) in st else a for a in d['authors']]
 out.sort(key=lambda x: -(x['year'] or 0))
 json.dump(out, open('data/publications.json', 'w'), ensure_ascii=False, indent=1)
 print(len(out), 'publications written')

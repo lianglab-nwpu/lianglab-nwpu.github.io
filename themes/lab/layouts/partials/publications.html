@@ -1,5 +1,5 @@
 {{ $pubs := site.Data.publications }}
-<p class="note">{{ len $pubs }} journal articles, newest first. <b>Bold</b> = group PI; * = corresponding author. Click a title to open the article via its DOI.</p>
+<p class="note">{{ len $pubs }} journal articles, newest first. <b>Bold</b> = group PI; * = corresponding author; # = co-first author. Click a title to open the article via its DOI.</p>
 {{ $years := slice }}{{ range $pubs }}{{ if not (in $years .year) }}{{ $years = $years | append .year }}{{ end }}{{ end }}
 {{ range $years }}{{ $y := . }}
 <h2 class="year" id="y{{ $y }}">{{ $y }} Publications</h2>
